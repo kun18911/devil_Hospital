@@ -1,0 +1,12 @@
+/* wrap */
+.wrap {
+    position: relative;
+    background-image: linear-gradient(to right, #f92626, #300351, #000000);
+}
+
+.body {
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+    position: absolute;
+    background-color: blue;
+}
