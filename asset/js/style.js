@@ -8,8 +8,9 @@
     // 2. cho phone:
     {
         windowWidth = window.innerWidth; windowHeight = window.innerHeight; 
-        // wrapAll.style.width = windowWidth+'px'; wrapAll.style.height = windowHeight+'px'
+        wrapAll.style.width = windowWidth+'px'; wrapAll.style.height = windowHeight+'px'
     }
+    console.log("hi")
     // set rem HTML
     document.documentElement.style.fontSize=+(wrapAll.style.width).replace("px",'')/15+'px'
     // set width height cho bodyNe
