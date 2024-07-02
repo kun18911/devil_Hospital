@@ -4,7 +4,7 @@
     var wrapAll = document.querySelector(".wrap")
     var bodyNe = document.querySelector(".body")
     // 1. cho pc:
-    wrapAll.style.width = '320px'; wrapAll.style.height = '620px'
+    // wrapAll.style.width = '320px'; wrapAll.style.height = '620px'
     // 2. cho phone:
     {
         windowWidth = window.innerWidth; windowHeight = window.innerHeight; 
